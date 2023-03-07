@@ -1,5 +1,16 @@
 /* Write your CSS here! */
+.primary-content {
+  display: grid;
+  grid-template-columns: 20% 4fr;
+}
 
+.header {
+  display: grid;
+  /* far right grid-template-columns: 90% 1fr; */
+  /* too far passed the sidebar grid-template-columns: 1fr 75%; */
+  grid-template-columns: 1fr 80%;
+  /* too close to logo grid-template-columns: 1fr 90%; */
+}
 /* Do not change the CSS below. */
 
 .header {
