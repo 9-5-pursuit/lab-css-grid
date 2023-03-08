@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CSS Grid</title>
+  <script src="app.js"></script>
   <link href="./style.css" rel="stylesheet" />
 </head>
 
@@ -26,17 +27,26 @@
 
   <div class="primary-content">
     <div class="sidebar">
-      <p>Sidebar.</p>
+      <p>Sidebar</p>
+      <ul>
+        <li>food</li>
+        <li>clothes</li>
+        <li>travel</li>
+        <li>coding</li>
+        <li>cars</li>
+      </ul>
     </div>
-
     <div class="main">
       <p>Main content goes here.</p>
+      <button onclick="expandMain()">Expand</button>
     </div>
   </div>
 
   <div class="footer">
-    <div>Footer goes here.</div>
+    <div class="footer-text">Footer goes here.</div>
+    <div class="navbutton">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
   </div>
 </body>
-
 </html>
