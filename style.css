@@ -1,5 +1,45 @@
 /* Write your CSS here! */
 
+/* 
+  initialized the whole body as a grid so that the grid
+  features can be applied to its immediate child and  
+  can be placed at the correct spot as the layout with two 
+  columns. Also included a gap to make the page look nicer.
+*/
+body{
+  
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap:15px;
+}
+/*
+selected a correct portion for the header part before turning
+it into a grid and provided appropriate spacing to header items
+and made them appear right from the start of each available grid 
+within a header.
+*/
+.header{
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 290px 1fr;
+  justify-items: start;
+}
+/* 
+selected a correct portion for the sidebar and main content, both of them are 
+in a div tag with in a class primary-content before turning that specific part
+into grid
+ */
+.primary-content {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns:1fr 3fr ;
+}
+
+.footer{
+ grid-column: 1/-1;
+}
+
+
 /* Do not change the CSS below. */
 
 .header {
@@ -13,7 +53,7 @@
 }
 
 .menu ul {
-  padding: 0;
+  padding: 0px;
 }
 
 .menu ul li {
