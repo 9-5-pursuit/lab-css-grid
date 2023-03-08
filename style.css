@@ -1,7 +1,10 @@
 /* Write your CSS here! */
 
 /* Do not change the CSS below. */
-
+.header {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+}
 .header {
   background: #4242ea;
 }
