@@ -1,9 +1,36 @@
 /* Write your CSS here! */
+/* .header {
+  display:inline-grid;
+  grid-template-rows: minmax(1fr, 1fr)
+  */
+/* } */
+
+  .header {
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  .primary-content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  .main{
+
+    grid-column-start: 2fr;
+  }
+  
+
+
+
+
+
+
+
 
 /* Do not change the CSS below. */
 
 .header {
   background: #4242ea;
+
 }
 
 .logo img {
