@@ -3,6 +3,7 @@
 /* Do not change the CSS below. */
 
 .header {
+  display: grid;
   background: #4242ea;
 }
 
@@ -13,6 +14,7 @@
 }
 
 .menu ul {
+  text-align: center;
   padding: 0;
 }
 
@@ -42,4 +44,8 @@
   background: yellow;
   padding: 10px;
   text-align: center;
+}
+.primary-content {
+  display: grid;
+  grid-template-columns: 300px auto;
 }
