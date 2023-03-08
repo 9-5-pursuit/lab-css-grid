@@ -13,10 +13,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
-
-.logo {
-  height: auto;
-}
 /* Do not change the CSS below. */
 
 .header {
