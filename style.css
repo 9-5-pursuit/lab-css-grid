@@ -14,19 +14,20 @@ body{
 }
 /*
 selected a correct portion for the header part before turning
-it into a grid and provided appropriate spacing to header items
+a header class into a grid and provided appropriate spacing to header items
 and made them appear right from the start of each available grid 
 within a header.
 */
 .header{
   grid-column: 1/-1;
-  display: grid;
+  display: grid; 
   grid-template-columns: 290px 1fr;
   justify-items: start;
 }
 /* 
 selected a correct portion for the sidebar and main content, both of them are 
-in a div tag with in a class primary-content before turning that specific part
+inside a div tag with in a class primary-content before turning the primary-content
+class into grid and chose a correct amount of cloumn width
 into grid
  */
 .primary-content {
