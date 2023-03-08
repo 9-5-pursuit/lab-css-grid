@@ -1,5 +1,12 @@
 /* Write your CSS here! */
+.header div {
+  display: inline-block;
+}
 
+.primary-content {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
 /* Do not change the CSS below. */
 
 .header {
