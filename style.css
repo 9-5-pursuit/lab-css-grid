@@ -1,5 +1,17 @@
 /* Write your CSS here! */
 
+.footer{
+  display: grid;
+  grid-template-rows: 50px;
+}
+.header {
+  display: grid;
+  grid-template-columns:300px auto;
+}
+.primary-content{
+  display: grid;
+  grid-template-columns:300px auto;
+}
 /* Do not change the CSS below. */
 
 .header {
