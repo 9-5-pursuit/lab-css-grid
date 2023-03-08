@@ -32,8 +32,10 @@ You will host the results of this lab on GitHub Pages (please see the guide to h
 
 You need to edit this file to include the link for your instructors.
 
-JenniferPeterson.github.io-css-grid-lab
+https://jenniferpeterson1203.github.io/lab-css-gri
 
 Your instructor will us a combination of reading your code and viewing the results of your code to determine a grade.
+
 # JenniferPeterson.github.io-css-grid-lab
+
 # JenniferPeterson.github.io-css-grid-lab
