@@ -1,13 +1,18 @@
 /* Write your CSS here! */
 
-.primary-content {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-}
-
 .header {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 25% 75%;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 /* Do not change the CSS below. */
